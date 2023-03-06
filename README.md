@@ -32,7 +32,15 @@
 -   git branch -M <u>name</u> -> rename a branch doesn't care exists or not
 -   git branch -r -> check exists branch
 -   git checkout <u>branch</u> -> switch from one branch to another branch
+- git log -> tracking the commit timeline
+- git log --oneline -> seeing history of commit with one line
+- git fetch <u>remote</u> && <u>branch</u> -> pull the cloud repo into local repo
+- git pull <u>remote</u> && <u>branch</u> -> pull the cloud repo into working station || git fetch + git merge
 
 ### Addition
-
 -   default branch on github -> main
+
+## Week 3
+- git branch
+- git switch
+- git checkout
