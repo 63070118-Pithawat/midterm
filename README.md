@@ -58,5 +58,5 @@
 - git restore -> working like cmd+z (back to latest version)
 - git restore --source HEAD~N . -> restore everything to HEAD_ID
 - git restore --staged . -> restore everything from staging area
-- git reset <u>commit_id</u> -> reset state to commit_id but not change the changed file
-- git reset <u>commit_id</u> --hard -> reset and destroy everything then rollback to commit_id
+- git reset <u>commit_id</u> -> back to the commit_id without change
+- git reset <u>commit_id</u> --hard -> back to the commit_id destroy everything then rollback to commit_id
