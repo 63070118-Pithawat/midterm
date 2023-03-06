@@ -41,6 +41,22 @@
 -   default branch on github -> main
 
 ## Week 3
-- git branch
-- git switch
-- git checkout
+- git branch ->
+- git switch -> can be change the HEAD to latest commit of the branch
+- git checkout -> can be change the HEAD to commit ID
+- git diff -> compare current branch with target
+- git merge -> merge current branch with target
+- git branch -> check all branch
+- git branch -m <u>new_name</u> -> rename current branch
+- git branch -d <u>branch</u> -> delete only merged branch
+- git branch -D <u>branch</u> -> force to delete branch
+### Addition
+- HEAD -> has been always pointing at the latest commit
+- merge types -> 1. fast forward | 2. conflict
+
+## Week 4
+- git restore -> working like cmd+z (back to latest version)
+- git restore --source HEAD~N . -> restore everything to HEAD_ID
+- git restore --staged . -> restore everything from staging area
+- git reset <u>commit_id</u> -> reset state to commit_id but not change the changed file
+- git reset <u>commit_id</u> --hard -> reset and destroy everything then rollback to commit_id
